@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> NewsPaper - {% block title %}{% endblock title %}</title>
+</head>
+<body>
+
+    {% include 'inc/navbar.html' %}
+
+    <main>
+        {% block content %}
+
+        {% endblock content %}
+    </main>
+</body>
+</html>
